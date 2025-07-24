@@ -1,0 +1,39 @@
+# === GLOBAL ===
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+*.env
+.env.*
+.envrc
+
+# === PYTHON VENV ===
+venv/
+env/
+ENV/
+.venv/
+
+# === DJANGO ===
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+*.pyd
+media/
+staticfiles/
+*.db
+
+# === REACT ===
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# === VSCODE ===
+.vscode/
+
+# === SYSTEM ===
+.DS_Store
+Thumbs.db
