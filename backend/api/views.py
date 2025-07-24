@@ -3,7 +3,6 @@ from .models import Tarea
 from .serializers import TareaSerializer
 
 
-# Create your views here.
-class TareaViews(viewsets.ModelViewset):
+class TareaViewSet(viewsets.ModelViewSet):
     queryset = Tarea.objects.all()
     serializer_class = TareaSerializer
